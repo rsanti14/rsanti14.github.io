@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Wolverine and Landslide Susceptibility</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=2, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="Wolverine and Landslide Susceptibility">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Main -->
+					<div id="Wolverine and Landslide Suseptibilty">
+						<div class="inner">
+							<h1>Landslide suseptibility and Wolveriene Habitat</h1>
+							<span class="image main"><img src="images/Map2.jpg" alt="" /></span>
+							<span class="image main"><img src="images/Map3.jpg" alt="" /></span>
+							<p>    The purpose of the two maps are to show the directional distribution of mountain peaks in
+Wyoming and the relation to landslide susceptibility. I also wanted to bring in a map to show
+wolverine range relating to the distribution of mountain peaks and landslide susceptibility.
+							<p> First I found my data sources on wolverines on USGS, specifically a shapefile with wolverine
+preferred habitat. I started here because I recently thought I saw a wolverine den in Colorado,
+and was curious to see if there was any tracking on wolverines. Next, I downloaded the
+Wyoming Mountain peaks and Wyoming hazards shapefiles from the Wyoming State Geological
+Survey. These data sources would allow me to see if there were any correlations between
+elevation, landslides and the threat that may have on Wolverines.
+							<p> After making a folder connection with all of this data in it, I checked the properties and noticed
+I had to change the coordinate systems to NAD_1983_UTM_Zone13N. I then used the intersect
+tool to make sure I was only using the wolverine data in Wyoming, and not the entire United
+States. Next I calculated the Central Feature tool, Inputting Mountain Peaks and selecting
+Elevation as my case field to see where the center of Wyoming's Mountains were. Next I used
+the Directional Distribution (Standard Deviation Ellipse) tool to see if there was a directional
+trend in Wyoming for the mountain peaks. The directional tool showed that the mountains are
+mostly trending north west, and the central feature tool shows a similar trend.
+							<p> Wolverines prefer high elevation, snow driven watersheds. As we continue with extreme
+weather events, I fear that the wolverine habitat will continue to decrease due to climate factors
+such as slow, or fast landslide events that push them into territory they cannot survive in.
+Sources:
+https://www.wsgs.wyo.gov/pubs-maps/gis
+https://www.sciencebase.gov/catalog/item/4fbaad35e4b0134c9a0afc0
+						</div>
+					</div>
+
+
+</html>
